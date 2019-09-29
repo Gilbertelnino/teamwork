@@ -15,6 +15,6 @@ Teamwork is an ​internal social network for organizations’ employees. The go
 8. you can view recent post first by click right side and make decision to read it
 9. you can also view special article you want by searching it in search box
 
-#for more information about our app visit our pivotal track stories here 
+#for more information about our app visit our pivotal track stories here https://www.pivotaltracker.com/n/projects/2400682
 
 
