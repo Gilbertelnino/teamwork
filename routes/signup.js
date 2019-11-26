@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const express = require('express');
-const Validation = require('../helper/validater');
+const validation = require('../helper/validater');
 const employee = require('../helper/employee')
 const bcrypt = require('bcrypt');
 const router = express.Router();
@@ -22,7 +22,7 @@ router.post('/',(req,res) => {
                     address: req.body.address
         };
     
-    const{ error } = Validation(newEmployee);
+    const{ error } = validation(newEmployee);
     if(error){
         res.status(400).send(error.details[0].message)
     } else{

@@ -14,7 +14,7 @@ const validation = (valid) =>{
         .required(),
         password: Joi.string().required(),
         email: Joi.string()
-        .email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }).required(),
+        .email().required(),
         gender: Joi.string(),
         jobRole: Joi.string(),
         department: Joi.string(),
